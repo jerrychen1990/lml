@@ -1,0 +1,977 @@
+versions pytest-3.0.7, py-1.4.33, python-3.5.0.final.0
+cwd=/Users/jerry/workspace/lml
+args=['--debug']
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x101c41748>
+    pytest_plugin_registered [hook]
+        manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+        plugin: <Session 'lml'>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x101c41748>
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x101f599b0>
+      finish pytest_plugin_registered --> [] [hook]
+    find_module called for: py._io.terminalwriter [assertion]
+    find_module called for: termios [assertion]
+    find_module called for: fcntl [assertion]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.config.PytestPluginManager object at 0x1019935c0>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.config.Config object at 0x101c41748>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.config.Config object at 0x101c41748>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.mark' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/mark.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.mark' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/mark.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.main' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/main.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.main' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/main.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.terminal' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/terminal.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.terminal' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/terminal.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.runner' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/runner.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.runner' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/runner.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.python' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/python.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.python' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/python.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.fixtures' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/fixtures.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.fixtures' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/fixtures.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.debugging' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/debugging.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.debugging' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/debugging.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.unittest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/unittest.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.unittest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/unittest.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.capture' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/capture.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.capture' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/capture.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.skipping' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/skipping.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.skipping' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/skipping.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.tmpdir' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/tmpdir.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.tmpdir' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/tmpdir.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.monkeypatch' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/monkeypatch.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.monkeypatch' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/monkeypatch.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.recwarn' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/recwarn.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.recwarn' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/recwarn.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.pastebin' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/pastebin.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.pastebin' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/pastebin.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.helpconfig' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/helpconfig.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.helpconfig' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/helpconfig.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.nose' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/nose.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.nose' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/nose.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.assertion' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.assertion' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.junitxml' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/junitxml.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.junitxml' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/junitxml.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.resultlog' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/resultlog.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.resultlog' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/resultlog.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.doctest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/doctest.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.doctest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/doctest.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.cacheprovider' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/cacheprovider.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.cacheprovider' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/cacheprovider.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.freeze_support' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/freeze_support.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.freeze_support' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/freeze_support.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.setuponly' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setuponly.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.setuponly' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setuponly.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.setupplan' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setupplan.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.setupplan' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setupplan.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.capture.CaptureManager object at 0x101ece668>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.capture.CaptureManager object at 0x101ece668>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <Session 'lml'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <Session 'lml'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.cacheprovider.LFPlugin object at 0x101f599b0>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x101f599b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x101f59dd8>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session 'lml'>
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.config.PytestPluginManager object at 0x1019935c0>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.config.Config object at 0x101c41748>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.config.Config object at 0x101c41748>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.mark' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/mark.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.mark' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/mark.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.main' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/main.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.main' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/main.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.terminal' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/terminal.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.terminal' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/terminal.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.runner' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/runner.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.runner' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/runner.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.python' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/python.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.python' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/python.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.fixtures' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/fixtures.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.fixtures' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/fixtures.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.debugging' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/debugging.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.debugging' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/debugging.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.unittest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/unittest.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.unittest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/unittest.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.capture' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/capture.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.capture' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/capture.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.skipping' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/skipping.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.skipping' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/skipping.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.tmpdir' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/tmpdir.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.tmpdir' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/tmpdir.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.monkeypatch' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/monkeypatch.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.monkeypatch' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/monkeypatch.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.recwarn' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/recwarn.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.recwarn' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/recwarn.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.pastebin' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/pastebin.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.pastebin' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/pastebin.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.helpconfig' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/helpconfig.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.helpconfig' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/helpconfig.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.nose' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/nose.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.nose' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/nose.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.assertion' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.assertion' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/assertion/__init__.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.junitxml' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/junitxml.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.junitxml' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/junitxml.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.resultlog' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/resultlog.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.resultlog' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/resultlog.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.doctest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/doctest.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.doctest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/doctest.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.cacheprovider' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/cacheprovider.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.cacheprovider' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/cacheprovider.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.freeze_support' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/freeze_support.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.freeze_support' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/freeze_support.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.setuponly' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setuponly.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.setuponly' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setuponly.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <module '_pytest.setupplan' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setupplan.py'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <module '_pytest.setupplan' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/setupplan.py'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.capture.CaptureManager object at 0x101ece668>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.capture.CaptureManager object at 0x101ece668>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <Session 'lml'>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <Session 'lml'>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.cacheprovider.LFPlugin object at 0x101f599b0>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x101f599b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          __multicall__: <_MultiCall 0 results, 0 meths, kwargs={'__multicall__': <_MultiCall 0 results, 0 meths, kwargs={...}>, 'manager': <_pytest.config.PytestPluginManager object at 0x1019935c0>, 'plugin': <_pytest.terminal.TerminalReporter object at 0x101f59dd8>}>
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.terminal.TerminalReporter object at 0x101f59dd8>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          manager: <_pytest.config.PytestPluginManager object at 0x1019935c0>
+          plugin: <_pytest.fixtures.FixtureManager object at 0x103164be0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x101c41748>
+          startdir: /Users/jerry/workspace/lml
+      finish pytest_report_header --> [['rootdir: /Users/jerry/workspace/lml, inifile:'], ['using: pytest-3.0.7 pylib-1.4.33']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session 'lml'>
+    perform_collect <Session 'lml'> ['/Users/jerry/workspace/lml'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session 'lml'>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session 'lml'>
+        processing argument /Users/jerry/workspace/lml [collection]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/.cache
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/.git
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/.idea
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/data
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/data
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/.gitignore
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/.gitignore
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/README.md
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/README.md
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/main.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/main.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/pytestdebug.log
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/__pycache__
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/__pycache__
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/__init__.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/__init__.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/__init__.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/__init__.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/__pycache__/__init__.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/__pycache__/__init__.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__init__.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__init__.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__init__.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__init__.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/distance.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/distance.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/distance.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/distance.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/vector.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/vector.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/vector.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/vector.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/__init__.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/__init__.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/distance.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/distance.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/vector.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/lml/lib/__pycache__/vector.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/__pycache__
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/__pycache__
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/__init__.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/__init__.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/__pycache__/__init__.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/__pycache__/__init__.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_directory [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__
+            finish pytest_collect_directory --> None [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib/__init__.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib/__init__.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib/test_vector.py
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib/test_vector.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session 'lml'>
+                  path: /Users/jerry/workspace/lml/tests/lib/test_vector.py
+              finish pytest_pycollect_makemodule --> <Module 'tests/lib/test_vector.py'> [hook]
+            finish pytest_collect_file --> [<Module 'tests/lib/test_vector.py'>] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__/__init__.cpython-35.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__/__init__.cpython-35.pyc
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__/test_vector.cpython-35-PYTEST.pyc
+                config: <_pytest.config.Config object at 0x101c41748>
+            finish pytest_ignore_collect --> False [hook]
+            pytest_collect_file [hook]
+                parent: <Session 'lml'>
+                path: /Users/jerry/workspace/lml/tests/lib/__pycache__/test_vector.cpython-35-PYTEST.pyc
+            finish pytest_collect_file --> [] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module 'tests/lib/test_vector.py'> [collection]
+      pytest_collectstart [hook]
+          collector: <Module 'tests/lib/test_vector.py'>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module 'tests/lib/test_vector.py'>
+      find_module called for: tests [assertion]
+      find_module called for: tests.lib [assertion]
+      find_module called for: tests.lib.test_vector [assertion]
+      matched test file '/Users/jerry/workspace/lml/tests/lib/test_vector.py' [assertion]
+      found cached rewritten pyc for '/Users/jerry/workspace/lml/tests/lib/test_vector.py' [assertion]
+      find_module called for: lml [assertion]
+      find_module called for: lml.lib [assertion]
+      find_module called for: lml.lib.vector [assertion]
+        pytest_pycollect_makeitem [hook]
+            obj: [1, 2, 0, 4, -3]
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: VEC1
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: tests.lib
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __package__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: {'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'PermissionError': <class 'PermissionError'>, 'MemoryError': <class 'MemoryError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'SystemExit': <class 'SystemExit'>, 'ImportError': <class 'ImportError'>, 'compile': <built-in function compile>, 'ArithmeticError': <class 'ArithmeticError'>, '__import__': <built-in function __import__>, 'memoryview': <class 'memoryview'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'divmod': <built-in function divmod>, 'SystemError': <class 'SystemError'>, 'bytearray': <class 'bytearray'>, 'input': <built-in function input>, 'False': False, 'ascii': <built-in function ascii>, 'IndentationError': <class 'IndentationError'>, 'map': <class 'map'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'filter': <class 'filter'>, 'len': <built-in function len>, 'staticmethod': <class 'staticmethod'>, 'True': True, 'super': <class 'super'>, 'GeneratorExit': <class 'GeneratorExit'>, 'classmethod': <class 'classmethod'>, 'next': <built-in function next>, 'None': None, 'TabError': <class 'TabError'>, 'hasattr': <built-in function hasattr>, 'locals': <built-in function locals>, 'SyntaxError': <class 'SyntaxError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'UserWarning': <class 'UserWarning'>, 'str': <class 'str'>, 'complex': <class 'complex'>, 'NotImplementedError': <class 'NotImplementedError'>, 'min': <built-in function min>, 'LookupError': <class 'LookupError'>, 'help': Type help() for interactive help, or help(object) for help about object., 'IndexError': <class 'IndexError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'RecursionError': <class 'RecursionError'>, 'delattr': <built-in function delattr>, 'vars': <built-in function vars>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'set': <class 'set'>, 'format': <built-in function format>, 'FileExistsError': <class 'FileExistsError'>, 'ImportWarning': <class 'ImportWarning'>, 'object': <class 'object'>, 'BaseException': <class 'BaseException'>, 'OSError': <class 'OSError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'TimeoutError': <class 'TimeoutError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'ord': <built-in function ord>, 'slice': <class 'slice'>, 'dict': <class 'dict'>, '__debug__': True, 'SyntaxWarning': <class 'SyntaxWarning'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'dir': <built-in function dir>, 'ValueError': <class 'ValueError'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'open': <built-in function open>, 'type': <class 'type'>, 'all': <built-in function all>, 'enumerate': <class 'enumerate'>, 'repr': <built-in function repr>, 'id': <built-in function id>, '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", 'ProcessLookupError': <class 'ProcessLookupError'>, 'abs': <built-in function abs>, 'KeyError': <class 'KeyError'>, 'OverflowError': <class 'OverflowError'>, 'ReferenceError': <class 'ReferenceError'>, 'BytesWarning': <class 'BytesWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'ChildProcessError': <class 'ChildProcessError'>, 'property': <class 'property'>, '__name__': 'builtins', 'getattr': <built-in function getattr>, 'Ellipsis': Ellipsis, 'oct': <built-in function oct>, 'list': <class 'list'>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'chr': <built-in function chr>, 'print': <built-in function print>, 'sum': <built-in function sum>, 'zip': <class 'zip'>, 'Warning': <class 'Warning'>, 'IOError': <class 'OSError'>, 'any': <built-in function any>, 'max': <built-in function max>, 'tuple': <class 'tuple'>, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, '__build_class__': <built-in function __build_class__>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'Exception': <class 'Exception'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'UnicodeError': <class 'UnicodeError'>, 'round': <built-in function round>, 'NameError': <class 'NameError'>, 'sorted': <built-in function sorted>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'TypeError': <class 'TypeError'>, 'frozenset': <class 'frozenset'>, 'globals': <built-in function globals>, 'ConnectionError': <class 'ConnectionError'>, 'NotImplemented': NotImplemented, 'bool': <class 'bool'>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'iter': <built-in function iter>, 'bytes': <class 'bytes'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'AssertionError': <class 'AssertionError'>, 'EOFError': <class 'EOFError'>, 'copyright': Copyright (c) 2001-2015 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., '__loader__': <class '_frozen_importlib.BuiltinImporter'>, 'InterruptedError': <class 'InterruptedError'>, 'pow': <built-in function pow>, 'reversed': <class 'reversed'>, 'range': <class 'range'>, 'float': <class 'float'>, 'FutureWarning': <class 'FutureWarning'>, 'RuntimeError': <class 'RuntimeError'>, 'bin': <built-in function bin>, 'setattr': <built-in function setattr>, 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., '__package__': '', 'EnvironmentError': <class 'OSError'>, 'BufferError': <class 'BufferError'>, 'ResourceWarning': <class 'ResourceWarning'>, 'BlockingIOError': <class 'BlockingIOError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'int': <class 'int'>, 'StopIteration': <class 'StopIteration'>, 'eval': <built-in function eval>, 'callable': <built-in function callable>, 'exec': <built-in function exec>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), 'AttributeError': <class 'AttributeError'>, 'license': See http://www.python.org/3.5/license.html}
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __builtins__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/jerry/workspace/lml/tests/lib/__pycache__/test_vector.cpython-35-PYTEST.pyc
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __cached__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'lml.lib.vector' from '/Users/jerry/workspace/lml/lml/lib/vector.py'>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: vector
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'builtins' (built-in)>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: @py_builtins
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module '_pytest.assertion.rewrite' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/_pytest/assertion/rewrite.py'>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: @pytest_ar
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'math' from '/Users/jerry/py-envs/lml-py/lib/python3.5/lib-dynload/math.cpython-35m-darwin.so'>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: math
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: [3, 0, -2, 2, 1]
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: VEC2
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <module 'pytest' from '/Users/jerry/py-envs/lml-py/lib/python3.5/site-packages/pytest.py'>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: pytest
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: tests.lib.test_vector
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __name__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x101ece5c0>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __loader__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: /Users/jerry/workspace/lml/tests/lib/test_vector.py
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __file__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_norm at 0x1031ceae8>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: test_norm
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1031de208>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_norm'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <function test_inner_product at 0x1031ceea0>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: test_inner_product
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1031de400>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function 'test_inner_product'>] [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: ModuleSpec(name='tests.lib.test_vector', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x101ece5c0>)
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __spec__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: None
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __doc__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__init__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __init__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __delattr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __getattribute__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <member '__dict__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __dict__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__repr__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __repr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __setattr__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <built-in method __new__ of type object at 0x1002264a0>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __new__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__dir__' of 'module' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __dir__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__subclasshook__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __subclasshook__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__gt__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __gt__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__eq__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __eq__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__sizeof__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __sizeof__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce_ex__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __reduce_ex__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__str__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __str__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__lt__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __lt__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__reduce__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __reduce__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <attribute '__class__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __class__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__le__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __le__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__ge__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __ge__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <method '__format__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __format__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__ne__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __ne__
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            obj: <slot wrapper '__hash__' of 'object' objects>
+            collector: <Module 'tests/lib/test_vector.py'>
+            name: __hash__
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/lib/test_vector.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function 'test_norm'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_norm'>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function 'test_inner_product'> [collection]
+      pytest_itemcollected [hook]
+          item: <Function 'test_inner_product'>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/lib/test_vector.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          config: <_pytest.config.Config object at 0x101c41748>
+          items: [<Function 'test_norm'>, <Function 'test_inner_product'>]
+          session: <Session 'lml'>
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session 'lml'>
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function 'test_norm'>, <Function 'test_inner_product'>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session 'lml'>
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_norm'>
+          nextitem: <Function 'test_inner_product'>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/lib/test_vector.py::test_norm
+            location: ('tests/lib/test_vector.py', 11, 'test_norm')
+        find_module called for: pathlib [assertion]
+        find_module called for: ntpath [assertion]
+        find_module called for: nt [assertion]
+        find_module called for: nt [assertion]
+        find_module called for: nt [assertion]
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_norm'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='setup' result: []>
+            item: <Function 'test_norm'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_norm' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_norm' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_norm' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_norm'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_norm'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='call' result: []>
+            item: <Function 'test_norm'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_norm' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_norm' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_norm' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_norm'>
+            nextitem: <Function 'test_inner_product'>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='teardown' result: []>
+            item: <Function 'test_norm'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_norm' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_norm' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_norm' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function 'test_inner_product'>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/lib/test_vector.py::test_inner_product
+            location: ('tests/lib/test_vector.py', 24, 'test_inner_product')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function 'test_inner_product'>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='setup' result: []>
+            item: <Function 'test_inner_product'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_inner_product' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='setup' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function 'test_inner_product'>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function 'test_inner_product'>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='call' result: []>
+            item: <Function 'test_inner_product'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_inner_product' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='call' outcome='passed'>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function 'test_inner_product'>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            call: <CallInfo when='teardown' result: []>
+            item: <Function 'test_inner_product'>
+        finish pytest_runtest_makereport --> <TestReport 'tests/lib/test_vector.py::test_inner_product' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/lib/test_vector.py::test_inner_product' when='teardown' outcome='passed'>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        exitstatus: 0
+        session: <Session 'lml'>
+    cache-write cache/lastfailed: {} [cache]
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x101f59dd8>
+          exitstatus: 0
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x101c41748>
+    finish pytest_unconfigure --> [] [hook]
+  finish [config:tmpdir]
