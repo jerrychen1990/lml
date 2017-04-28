@@ -29,4 +29,6 @@ def norm(vec, n):
 
 
 def inner_product(v1, v2):
+    if len(v1) != len(v2):
+        raise ValueError("different vector length: {}, {}".format(len(v1), len(v2)))
     return sum(map(lambda x: x[0] * x[1], zip(v1, v2)))
