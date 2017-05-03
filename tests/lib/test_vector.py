@@ -10,6 +10,7 @@ VEC1 = [1, 2, 0, 4, -3]
 VEC2 = [3, 0, -2, 2, 1]
 VEC3 = [2, 4, 9]
 
+
 def test_norm():
     assert vector.norm(VEC1, 0) == 4
     assert vector.norm(VEC1, 1) == 10
@@ -27,7 +28,7 @@ def test_inner_product():
     assert str(err_info) == 'different vector length: 5, 3'
 
 
-
-
-
+def test_add():
+    # print(vector.add(VEC1, VEC2))
+    assert vector.add(VEC1, VEC2) == [4, 2, -2, 6, -2]
 
