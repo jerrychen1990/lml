@@ -3,8 +3,7 @@
 # @Time    : 4/27/17 4:54 PM
 # @Author  : xiaowa
 import math
-from lml.lib.decorators import persist
-
+import lml.lib.base as base
 
 def l0(vec):
     return norm(vec, 0)
@@ -35,11 +34,13 @@ def inner_product(v1, v2):
     return sum(map(lambda x: x[0] * x[1], zip(v1, v2)))
 
 
-@persist
+def multiply(vec, num):
+    return base.pmap(lambda x: x * num, vec)
+
+
 def add(v1, v2):
-    return map(lambda x: x[0] + x[1], zip(v1, v2))
+    return base.pmap(lambda x: x[0] + x[1], zip(v1, v2))
 
 
-@persist
 def divide(v, num):
-    return map(lambda x: x * 1.0 / num, v)
+    return base.pmap(lambda x: x * 1.0 / num, v)

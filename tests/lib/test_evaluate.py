@@ -4,6 +4,8 @@
 # @Author  : xiaowa
 
 from lml.lib.concepts import TaggedItem, Item
+from lml.lib.data_reader import read_classify_data
+from lml.algos.perceptron import Perceptron
 import random
 import lml.lib.evaluate as evaluate
 
@@ -21,7 +23,25 @@ def test_compare_data():
     tp, tn, fp, fn = evaluate.compare_data(tag_item_list, predict_list)
     print(tp, tn, fp, fn)
 
+def test_cut_data():
+    to_cut = list(range(0, 10))
+    first, second = evaluate.cut_data(to_cut, 0.5)
+    print(first)
+    print(second)
+
+def test_evaluate_simple_classify():
+    data = read_classify_data("../../data/perceptron_data/item.csv")
+    # print(data)
+    evaluate.evaluate_simple_classify(Perceptron, data, 0.5, 10, learn_percent=0.01)
+
+
+
+
+
+
+
+
+
 
 # test_compare_data()
-
-print([1,3,4] + [0,4])
+test_evaluate_simple_classify()

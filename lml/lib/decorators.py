@@ -36,17 +36,4 @@ def do_logging_work(logger, level, print_args, msg, *args, **kwargs):
     log_func(_log_fun_dict.get(level, logger.info))
 
 
-def persist(func):
-    def wrapper(*args, **kwargs):
-        iter_rs = func(*args, **kwargs)
-        rs = []
-        for item in iter_rs:
-            rs.append(item)
-        return rs
-    return wrapper
-
-pmap = persist(map)
-
-
-
 
