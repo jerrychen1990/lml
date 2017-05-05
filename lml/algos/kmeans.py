@@ -24,7 +24,7 @@ class Kmeans(concepts.ClusteringAlgorithm):
     @decorators.print_log(print_args=True)
     def do_cluster(self, k, max_iter_cnt=100):
         for item in random.sample(self.data_list, k):
-            self.cluster_list.append({"center": item, "data": []})
+            self.cluster_list.append({"center": item.vec, "data": []})
 
         iter_cnt = 0
         while iter_cnt < max_iter_cnt:
@@ -40,6 +40,10 @@ class Kmeans(concepts.ClusteringAlgorithm):
                 break
         return self.cluster_list
 
+    def get_clusters(self):
+        pass
+
+
     @staticmethod
     # @decorators.print_log(print_args=True)
     def is_convergence(old_center, new_center):
@@ -49,11 +53,11 @@ class Kmeans(concepts.ClusteringAlgorithm):
         return True
 
     def assign_data(self, item):
-        assign_cluster = max(self.cluster_list, key=lambda c: distance.cosine_distance(c["center"], item))
+        assign_cluster = max(self.cluster_list, key=lambda c: distance.cosine_distance(c["center"], item.vec))
         assign_cluster["data"].append(item)
 
     @staticmethod
     def calculate_center(item):
-        sum_vec = reduce(vector.add, item["data"])
+        sum_vec = reduce(vector.add, map(lambda x:x.vec, item["data"]))
         center_vec = vector.divide(sum_vec, len(item))
         item["center"] = center_vec

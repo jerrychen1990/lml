@@ -14,7 +14,7 @@ def print_log(logger=common.default_logger, level=logging.INFO, print_args=False
             do_logging_work(logger, level, print_args, "{} started".format(func.__name__), *args, **kwargs)
             rs = func(*args, **kwargs)
             do_logging_work(logger, level, print_args, "{} finished".format(func.__name__), result=rs)
-
+            return rs
         return wrapper
 
     return log_decorator
@@ -45,6 +45,7 @@ def persist(func):
         return rs
     return wrapper
 
+pmap = persist(map)
 
 
 
